@@ -22,42 +22,42 @@ You also need the build utils (make, gcc, ...) but they come preinstalled on Ras
 ## Content
 
 In this repo you can find examples for:
-1. Simple Kernel Module
-2. Device Numbers and Device Files
-3. Create device file in driver and callbacks
-4. GPIO Driver
-5. Text LCD Driver
-6. PWM Module
-7. Temperature Sensor (I2C)
-8. Timer in Linux Kernel Modules
-9. High Resolution Timer in Linux Kernel Modules
-10. Accessing SPI with a Linux Kernel Module (BMP280 sensor again)
-11. Using a GPIO Interrupt in a Linux Kernel Module
-12. Using Parameters in a Linux Kernel Module
-13. IOCTL in a Linux Kernel Module
-14. Threads in a Linux Kernel Module
-15. Sending a signal from a Linux Kernel Module to an userspace application
-16. The poll callback
-17. Waitqueues in a Linux Kernel Module
-18. Create procfs entries from a Linux Kernel Module
-19. Create sysfs entries from a Linux Kernel Module
-20. Parse the device tree from a Linux Kernel Module to get the deivce properties of a specific device
-21. Device Tree GPIO Driver 
-22. Device Tree Driver for I2C Device
-23. Dynamical memory management in a Linux Kernel module
-24. Serial (UART) Driver
-25. Industrial IO compatible driver for an ATMEGA I2C ADC
-26. Device Tree SPI Driver (IIO compatible driver for Atmega SPI ADC)
-27. Misc Device
-28. Mutex for exclusive access to shared resource
-29. Completions for synchronisation
-30. Direct Memory Access (DMA) memcopy example
-31. Accessing files form a Linux Driver
-32. The mmap callback
-33. Linked Lists
-34. Registering device numbers, read and write callback in character devices Take 2
-35. Private Data in struct file
-36. I2C Device Driver without Device Tree 
+- [x] Simple Kernel Module
+1. Device Numbers and Device Files
+2. Create device file in driver and callbacks
+3. GPIO Driver
+4. Text LCD Driver
+5. PWM Module
+6. Temperature Sensor (I2C)
+7. Timer in Linux Kernel Modules
+8. High Resolution Timer in Linux Kernel Modules
+9.  Accessing SPI with a Linux Kernel Module (BMP280 sensor again)
+10. Using a GPIO Interrupt in a Linux Kernel Module
+11. Using Parameters in a Linux Kernel Module
+12. IOCTL in a Linux Kernel Module
+13. Threads in a Linux Kernel Module
+14. Sending a signal from a Linux Kernel Module to an userspace application
+15. The poll callback
+16. Waitqueues in a Linux Kernel Module
+17. Create procfs entries from a Linux Kernel Module
+18. Create sysfs entries from a Linux Kernel Module
+19. Parse the device tree from a Linux Kernel Module to get the deivce properties of a specific device
+20. Device Tree GPIO Driver 
+21. Device Tree Driver for I2C Device
+22. Dynamical memory management in a Linux Kernel module
+23. Serial (UART) Driver
+24. Industrial IO compatible driver for an ATMEGA I2C ADC
+25. Device Tree SPI Driver (IIO compatible driver for Atmega SPI ADC)
+26. Misc Device
+27. Mutex for exclusive access to shared resource
+28. Completions for synchronisation
+29. Direct Memory Access (DMA) memcopy example
+30. Accessing files form a Linux Driver
+31. The mmap callback
+32. Linked Lists
+33. Registering device numbers, read and write callback in character devices Take 2
+34. Private Data in struct file
+35. I2C Device Driver without Device Tree 
 
 
 ## More Information
